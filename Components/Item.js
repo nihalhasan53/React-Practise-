@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         borderColor: 'grey',
-        borderWidth: 1,
+        borderWidth: 3,
         borderRadius: 5,
         backgroundColor: 'whitesmoke'
     }
@@ -32,6 +32,4 @@ const styles = StyleSheet.create({
 
 export default Item;
 
-
-//Remove Comments
 
