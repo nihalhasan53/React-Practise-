@@ -6,9 +6,8 @@ const Item = (props) =>
     return(
         <View style={[ { margin: 8, padding: 8}, styles.item]}>
             <Text>{props.name}</Text>
-            <Button 
+            <Button  style={styles.button}
                 title={"Delete"}
-                color={"red"}
                 onPress={() => props.delete(props.name)}
             />
         </View>
@@ -27,6 +26,12 @@ const styles = StyleSheet.create({
         borderWidth: 4,
         borderRadius: 10,
         backgroundColor: 'whitesmoke'
+    }
+,
+    button:
+    {
+        backgroundColor:'red',
+        borderRadius:10
     }
 })
 
